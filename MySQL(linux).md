@@ -21,8 +21,8 @@ MYSQL дополнительный репозиторий
    ![image](https://github.com/user-attachments/assets/b46f41d1-a83f-455c-bc0b-23a348d9be69)
 
 
-**Для установки и удаления deb-пакета с помощью dpkg выполняем следующее: 
-**
+**Для установки и удаления deb-пакета с помощью dpkg выполняем следующее:**
+
 1)	Скачаем deb-пакет, например, Midnight Commander (MC), с помощью команды:
 *      wget http://archive.ubuntu.com/ubuntu/pool/universe/m/mc/mc_4.8.25-2ubuntu2_amd64.deb
 2)	Установим пакет
