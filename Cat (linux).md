@@ -1,22 +1,22 @@
 1)	Создаем Файл с домашними животными с помощью команды cat 
 cat> “House Animal” 
 
-*Dog
+* Dog
 
-*Cat
+* Cat
 
-*Hamster
+* Hamster
 
 Затем ctrl+d
 
 2)	Cоздаем подобным образом файл с Вьючными животными
 cat> “Pack Animal”
  
-*Horse
+* Horse 
 
-*Camel
+* Camel
 
-*Donkey
+* Donkey
 
 Затем ctrl+d
 
@@ -26,17 +26,17 @@ cat> “Pack Animal”
 *      cat “House Animal” “Pack Animal” > “Human Friends” 
 
 4)	Проверим файл -> cat “Human Friends” => В файле находятся все вышенаписанные животные в двух прошлых файлах:
-*Dog
+* Dog
 
-*Cat
+* Cat
 
-*Hamster
+* Hamster
 
-*Horse
+* Horse
 
-*Camel
+* Camel
 
-*Donkey
+* Donkey
 
 6)	Переименуем файл с помощью команды mv
 *      mv “Human Friends” “Animal Friends” 
