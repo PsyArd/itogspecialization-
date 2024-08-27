@@ -1,12 +1,18 @@
 Создание БД в программе MySQL Workbench 
 
 Cоздаем БД и называем ее Human Friends 
+
 Создаем таблицу с домашними животными под названием Pets 
+
 1) Colums Name:
 •	Id
+
 •	Name
+
 •	Type
+
 •	BirthDate
+
 •	Commands
 
 
@@ -27,6 +33,7 @@ Cоздаем БД и называем ее Human Friends
 подключенном MySQL репозитории создать базу данных “Human Friends”
 
    CREATE DATABASE IF NOT EXISTS HumanFriends;
+   
    USE HumanFriends;
 
 
@@ -34,18 +41,19 @@ Cоздаем БД и называем ее Human Friends
 
 CREATE TABLE Commands
 
-(
-    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    name varchar(30),
-    description varchar(255)
-);
+
+        (
+          id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+          name varchar(30),
+          description varchar(255)
+        );
 
 
-CREATE TABLE AnimalGroup
-(
-    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    name varchar(30)
-);
+      CREATE TABLE AnimalGroup
+      (
+          id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+          name varchar(30)   
+      );
 
 CREATE TABLE IntelligentAnimals
 (
