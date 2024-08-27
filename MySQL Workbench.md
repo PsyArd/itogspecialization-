@@ -25,6 +25,7 @@ Cоздаем БД и называем ее Human Friends
 **"БАЗА ДАННЫХ"**
 
 подключенном MySQL репозитории создать базу данных “Human Friends”
+
    CREATE DATABASE IF NOT EXISTS HumanFriends;
    USE HumanFriends;
 
@@ -32,6 +33,7 @@ Cоздаем БД и называем ее Human Friends
 Создать таблицы с иерархией из диаграммы в БД
 
 CREATE TABLE Commands
+
 (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     name varchar(30),
