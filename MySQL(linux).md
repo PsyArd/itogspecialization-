@@ -3,7 +3,7 @@ MYSQL дополнительный репозиторий
    *      sudo su
    
 3)	Добавим новый ключ репозитория с помощью команды указанной ниже
- *  			     **wget -O- https://repo.mysql.com/RPM-GPG-KEY-mysql-2022 | sudo apt-key add –**
+ *     **wget -O- https://repo.mysql.com/RPM-GPG-KEY-mysql-2022 | sudo apt-key add –**
 
 ![image](https://github.com/user-attachments/assets/cb50f19c-dd58-47f7-97eb-e895faac072c)
 
