@@ -12,3 +12,4 @@ Camel
 Donkey
 Затем ctrl+d
 
+(Рисунок 1 cat.png)
